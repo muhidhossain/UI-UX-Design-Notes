@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 300" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="loopArrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#4b5563"/>
+    </marker>
+    <marker id="innerArrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#047857"/>
+    </marker>
+    <marker id="outerArrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b91c1c"/>
+    </marker>
+  </defs>
+
+  <!-- boxes -->
+  <g font-size="14" font-weight="700" text-anchor="middle">
+    <rect x="30" y="120" width="140" height="60" rx="10" fill="#eef2ff" stroke="#4338ca" stroke-width="2"/>
+    <text x="100" y="155" fill="#1e1b4b">Prototype</text>
+
+    <rect x="240" y="120" width="140" height="60" rx="10" fill="#ecfdf5" stroke="#047857" stroke-width="2"/>
+    <text x="310" y="155" fill="#064e3b">Critique</text>
+
+    <rect x="450" y="120" width="140" height="60" rx="10" fill="#ecfdf5" stroke="#047857" stroke-width="2"/>
+    <text x="520" y="155" fill="#064e3b">Refine</text>
+
+    <rect x="650" y="120" width="140" height="60" rx="10" fill="#fef2f2" stroke="#b91c1c" stroke-width="2"/>
+    <text x="720" y="155" fill="#7f1d1d">Test</text>
+  </g>
+
+  <!-- forward arrows -->
+  <g stroke="#4b5563" stroke-width="2" marker-end="url(#loopArrow)">
+    <line x1="170" y1="150" x2="236" y2="150"/>
+    <line x1="380" y1="150" x2="446" y2="150"/>
+    <line x1="590" y1="150" x2="646" y2="150"/>
+  </g>
+
+  <!-- inner loop: critique -> refine -> prototype -->
+  <path d="M 520 120 C 520 60, 100 60, 100 116" fill="none" stroke="#047857" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#innerArrow)"/>
+  <text x="310" y="45" text-anchor="middle" font-size="12" fill="#047857" font-style="italic">inner loop — internal, fast, cheap</text>
+
+  <!-- outer loop: test -> back to prototype (or earlier) -->
+  <path d="M 720 180 C 720 260, 100 260, 100 184" fill="none" stroke="#b91c1c" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#outerArrow)"/>
+  <text x="410" y="280" text-anchor="middle" font-size="12" fill="#b91c1c" font-style="italic">outer loop — real users, slower, more objective (may loop back to Define/Ideate)</text>
+</svg>
