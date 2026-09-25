@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="dotArrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/>
+    </marker>
+  </defs>
+
+  <text x="320" y="30" text-anchor="middle" font-size="15" font-weight="700" fill="#374151">EMPATHY MAP</text>
+
+  <!-- Quadrant: SAYS (observed) -->
+  <rect x="60" y="55" width="250" height="160" rx="10" fill="#eff6ff" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="185" y="85" text-anchor="middle" font-size="15" font-weight="700" fill="#1e3a8a">SAYS</text>
+  <text x="185" y="140" text-anchor="middle" font-size="12" fill="#1e3a8a">Verbatim quotes</text>
+  <text x="185" y="160" text-anchor="middle" font-size="12" fill="#1e3a8a">from research</text>
+
+  <!-- Quadrant: THINKS (inferred) -->
+  <rect x="330" y="55" width="250" height="160" rx="10" fill="#fdf4ff" stroke="#a21caf" stroke-width="2"/>
+  <text x="455" y="85" text-anchor="middle" font-size="15" font-weight="700" fill="#701a75">THINKS</text>
+  <text x="455" y="140" text-anchor="middle" font-size="12" fill="#701a75">Beliefs &amp; worries</text>
+  <text x="455" y="160" text-anchor="middle" font-size="12" fill="#701a75">left unsaid</text>
+
+  <!-- Quadrant: DOES (observed) -->
+  <rect x="60" y="235" width="250" height="160" rx="10" fill="#eff6ff" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="185" y="265" text-anchor="middle" font-size="15" font-weight="700" fill="#1e3a8a">DOES</text>
+  <text x="185" y="320" text-anchor="middle" font-size="12" fill="#1e3a8a">Observed actions</text>
+  <text x="185" y="340" text-anchor="middle" font-size="12" fill="#1e3a8a">&amp; behaviors</text>
+
+  <!-- Quadrant: FEELS (inferred) -->
+  <rect x="330" y="235" width="250" height="160" rx="10" fill="#fdf4ff" stroke="#a21caf" stroke-width="2"/>
+  <text x="455" y="265" text-anchor="middle" font-size="15" font-weight="700" fill="#701a75">FEELS</text>
+  <text x="455" y="320" text-anchor="middle" font-size="12" fill="#701a75">Emotions &amp;</text>
+  <text x="455" y="340" text-anchor="middle" font-size="12" fill="#701a75">frustrations</text>
+
+  <!-- center circle: the person -->
+  <circle cx="320" cy="215" r="42" fill="#ffffff" stroke="#374151" stroke-width="2"/>
+  <text x="320" y="212" text-anchor="middle" font-size="11" font-weight="700" fill="#374151">USER,</text>
+  <text x="320" y="227" text-anchor="middle" font-size="11" font-weight="700" fill="#374151">in context</text>
+
+  <!-- legend -->
+  <rect x="140" y="425" width="16" height="16" rx="3" fill="#eff6ff" stroke="#1d4ed8" stroke-width="1.5"/>
+  <text x="164" y="438" font-size="12" fill="#374151">Observed (what you actually heard/saw)</text>
+  <rect x="410" y="425" width="16" height="16" rx="3" fill="#fdf4ff" stroke="#a21caf" stroke-width="1.5"/>
+  <text x="434" y="438" font-size="12" fill="#374151">Inferred (your interpretation)</text>
+</svg>

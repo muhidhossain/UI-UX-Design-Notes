@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 320" font-family="Helvetica, Arial, sans-serif">
+  <text x="350" y="26" text-anchor="middle" font-size="14" font-weight="700" fill="#1f2937">Bias amplification through the feedback loop</text>
+
+  <!-- Training data -->
+  <rect x="30" y="120" width="130" height="60" rx="10" fill="#fef2f2" stroke="#b91c1c" stroke-width="2"/>
+  <text x="95" y="143" text-anchor="middle" font-size="11" font-weight="700" fill="#7f1d1d">Training data</text>
+  <text x="95" y="160" text-anchor="middle" font-size="9" fill="#991b1b">reflects historical</text>
+  <text x="95" y="172" text-anchor="middle" font-size="9" fill="#991b1b">/ societal bias</text>
+
+  <line x1="160" y1="150" x2="195" y2="150" stroke="#6b7280" stroke-width="1.5" marker-end="url(#arrowBias)"/>
+
+  <!-- Model -->
+  <rect x="200" y="120" width="130" height="60" rx="10" fill="#fffbeb" stroke="#b45309" stroke-width="2"/>
+  <text x="265" y="143" text-anchor="middle" font-size="11" font-weight="700" fill="#78350f">Model</text>
+  <text x="265" y="160" text-anchor="middle" font-size="9" fill="#92400e">learns proxy</text>
+  <text x="265" y="172" text-anchor="middle" font-size="9" fill="#92400e">correlations</text>
+
+  <line x1="330" y1="150" x2="365" y2="150" stroke="#6b7280" stroke-width="1.5" marker-end="url(#arrowBias)"/>
+
+  <!-- Product surface -->
+  <rect x="370" y="120" width="150" height="60" rx="10" fill="#eff6ff" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="445" y="143" text-anchor="middle" font-size="11" font-weight="700" fill="#1e3a8a">Product surface</text>
+  <text x="445" y="160" text-anchor="middle" font-size="9" fill="#1e40af">disparate performance</text>
+  <text x="445" y="172" text-anchor="middle" font-size="9" fill="#1e40af">across groups</text>
+
+  <line x1="520" y1="150" x2="555" y2="150" stroke="#6b7280" stroke-width="1.5" marker-end="url(#arrowBias)"/>
+
+  <!-- Feedback signal -->
+  <rect x="560" y="120" width="120" height="60" rx="10" fill="#ecfdf5" stroke="#047857" stroke-width="2"/>
+  <text x="620" y="143" text-anchor="middle" font-size="11" font-weight="700" fill="#065f46">Feedback</text>
+  <text x="620" y="160" text-anchor="middle" font-size="9" fill="#047857">signal itself</text>
+  <text x="620" y="172" text-anchor="middle" font-size="9" fill="#047857">skewed</text>
+
+  <!-- loop back to training data, thicker to show compounding -->
+  <path d="M620,180 L620,240 L95,240 L95,180" fill="none" stroke="#b91c1c" stroke-width="3" marker-end="url(#arrowBiasThick)"/>
+  <text x="357" y="260" text-anchor="middle" font-size="11" font-weight="700" fill="#b91c1c">retrain on skewed feedback → disparity compounds each cycle</text>
+
+  <defs>
+    <marker id="arrowBias" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#6b7280"/>
+    </marker>
+    <marker id="arrowBiasThick" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,7 Z" fill="#b91c1c"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 220" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="sevArrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/>
+    </marker>
+  </defs>
+
+  <line x1="40" y1="60" x2="660" y2="60" stroke="#6b7280" stroke-width="2" marker-end="url(#sevArrow)"/>
+  <text x="30" y="45" font-size="12" fill="#374151">low severity</text>
+  <text x="660" y="45" text-anchor="end" font-size="12" fill="#374151">high severity</text>
+
+  <!-- 0 -->
+  <circle cx="80" cy="60" r="7" fill="#d1d5db"/>
+  <text x="80" y="95" text-anchor="middle" font-size="12" font-weight="700" fill="#374151">0</text>
+  <text x="80" y="115" text-anchor="middle" font-size="11" fill="#6b7280">Not a problem</text>
+
+  <!-- 1 -->
+  <circle cx="220" cy="60" r="7" fill="#93c5fd"/>
+  <text x="220" y="95" text-anchor="middle" font-size="12" font-weight="700" fill="#374151">1</text>
+  <text x="220" y="115" text-anchor="middle" font-size="11" fill="#6b7280">Cosmetic only</text>
+  <text x="220" y="130" text-anchor="middle" font-size="11" fill="#6b7280">fix if time permits</text>
+
+  <!-- 2 -->
+  <circle cx="360" cy="60" r="7" fill="#fde68a"/>
+  <text x="360" y="95" text-anchor="middle" font-size="12" font-weight="700" fill="#374151">2</text>
+  <text x="360" y="115" text-anchor="middle" font-size="11" fill="#6b7280">Minor usability</text>
+  <text x="360" y="130" text-anchor="middle" font-size="11" fill="#6b7280">problem</text>
+
+  <!-- 3 -->
+  <circle cx="500" cy="60" r="7" fill="#fca5a5"/>
+  <text x="500" y="95" text-anchor="middle" font-size="12" font-weight="700" fill="#374151">3</text>
+  <text x="500" y="115" text-anchor="middle" font-size="11" fill="#6b7280">Major problem,</text>
+  <text x="500" y="130" text-anchor="middle" font-size="11" fill="#6b7280">important to fix</text>
+
+  <!-- 4 -->
+  <circle cx="620" cy="60" r="8" fill="#b91c1c"/>
+  <text x="620" y="95" text-anchor="middle" font-size="12" font-weight="700" fill="#374151">4</text>
+  <text x="620" y="115" text-anchor="middle" font-size="11" fill="#6b7280">Catastrophe,</text>
+  <text x="620" y="130" text-anchor="middle" font-size="11" fill="#6b7280">must fix before release</text>
+
+  <text x="350" y="195" text-anchor="middle" font-size="12" fill="#9ca3af">Assigned per issue found, so the team can prioritize what to fix first</text>
+</svg>

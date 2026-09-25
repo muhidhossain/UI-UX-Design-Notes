@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="axisArrow2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/>
+    </marker>
+  </defs>
+
+  <!-- axes -->
+  <line x1="90" y1="40" x2="90" y2="260" stroke="#374151" stroke-width="2" marker-end="url(#axisArrow2)"/>
+  <line x1="90" y1="260" x2="720" y2="260" stroke="#374151" stroke-width="2" marker-end="url(#axisArrow2)"/>
+  <text x="30" y="55" font-size="12" fill="#374151">high</text>
+  <text x="30" y="255" font-size="12" fill="#374151">low</text>
+  <text x="55" y="150" font-size="12" fill="#374151" text-anchor="middle" transform="rotate(-90 55 150)">SATISFACTION</text>
+
+  <!-- stage gridlines + labels -->
+  <line x1="180" y1="40" x2="180" y2="260" stroke="#e5e7eb" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="320" y1="40" x2="320" y2="260" stroke="#e5e7eb" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="460" y1="40" x2="460" y2="260" stroke="#e5e7eb" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="600" y1="40" x2="600" y2="260" stroke="#e5e7eb" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <text x="135" y="285" text-anchor="middle" font-size="12" font-weight="700" fill="#374151">Awareness</text>
+  <text x="250" y="285" text-anchor="middle" font-size="12" font-weight="700" fill="#374151">Research</text>
+  <text x="390" y="285" text-anchor="middle" font-size="12" font-weight="700" fill="#374151">Purchase</text>
+  <text x="530" y="285" text-anchor="middle" font-size="12" font-weight="700" fill="#374151">Onboarding</text>
+  <text x="660" y="285" text-anchor="middle" font-size="12" font-weight="700" fill="#374151">Ongoing Use</text>
+
+  <!-- emotional curve -->
+  <path d="M 90,150 C 130,110 150,90 180,90 C 220,90 260,140 320,160 C 360,175 420,110 460,100 C 500,95 540,190 600,215 C 640,230 680,150 720,120"
+        fill="none" stroke="#1d4ed8" stroke-width="3"/>
+
+  <!-- dots at stage midpoints -->
+  <circle cx="135" cy="105" r="5" fill="#1d4ed8"/>
+  <circle cx="250" cy="150" r="5" fill="#1d4ed8"/>
+  <circle cx="390" cy="105" r="5" fill="#1d4ed8"/>
+  <circle cx="530" cy="205" r="5" fill="#b91c1c"/>
+  <circle cx="660" cy="135" r="5" fill="#1d4ed8"/>
+
+  <!-- callout on the valley -->
+  <rect x="470" y="225" width="180" height="34" rx="8" fill="#fef2f2" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="560" y="246" text-anchor="middle" font-size="11" fill="#7f1d1d">Deepest valley = fix first</text>
+
+  <text x="405" y="320" text-anchor="middle" font-size="12" fill="#9ca3af">Plotting emotion across stages makes friction points immediately visible and arguable</text>
+</svg>

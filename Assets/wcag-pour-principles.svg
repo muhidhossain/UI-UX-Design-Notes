@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 260" font-family="Helvetica, Arial, sans-serif">
+  <text x="360" y="28" text-anchor="middle" font-size="14" font-weight="700" fill="#374151">WCAG — POUR</text>
+
+  <rect x="20" y="55" width="160" height="150" rx="10" fill="#ecfdf5" stroke="#047857" stroke-width="2"/>
+  <text x="100" y="85" text-anchor="middle" font-size="14" font-weight="700" fill="#064e3b">Perceivable</text>
+  <text x="35" y="115" font-size="11" fill="#064e3b">Info presentable</text>
+  <text x="35" y="132" font-size="11" fill="#064e3b">in more than one</text>
+  <text x="35" y="149" font-size="11" fill="#064e3b">sense (alt text,</text>
+  <text x="35" y="166" font-size="11" fill="#064e3b">captions, contrast)</text>
+
+  <rect x="200" y="55" width="160" height="150" rx="10" fill="#eff6ff" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="280" y="85" text-anchor="middle" font-size="14" font-weight="700" fill="#1e3a8a">Operable</text>
+  <text x="215" y="115" font-size="11" fill="#1e3a8a">All controls usable</text>
+  <text x="215" y="132" font-size="11" fill="#1e3a8a">via keyboard, no</text>
+  <text x="215" y="149" font-size="11" fill="#1e3a8a">unextendable time</text>
+  <text x="215" y="166" font-size="11" fill="#1e3a8a">limits</text>
+
+  <rect x="380" y="55" width="160" height="150" rx="10" fill="#fffbeb" stroke="#b45309" stroke-width="2"/>
+  <text x="460" y="85" text-anchor="middle" font-size="14" font-weight="700" fill="#78350f">Understandable</text>
+  <text x="395" y="115" font-size="11" fill="#78350f">Consistent nav,</text>
+  <text x="395" y="132" font-size="11" fill="#78350f">clear error</text>
+  <text x="395" y="149" font-size="11" fill="#78350f">messages, plain</text>
+  <text x="395" y="166" font-size="11" fill="#78350f">language</text>
+
+  <rect x="560" y="55" width="160" height="150" rx="10" fill="#fdf4ff" stroke="#a21caf" stroke-width="2"/>
+  <text x="640" y="85" text-anchor="middle" font-size="14" font-weight="700" fill="#701a75">Robust</text>
+  <text x="575" y="115" font-size="11" fill="#701a75">Works reliably</text>
+  <text x="575" y="132" font-size="11" fill="#701a75">across assistive</text>
+  <text x="575" y="149" font-size="11" fill="#701a75">tech via valid</text>
+  <text x="575" y="166" font-size="11" fill="#701a75">semantic markup</text>
+
+  <text x="360" y="240" text-anchor="middle" font-size="12" fill="#9ca3af">Conformance levels: A (minimum) &lt; AA (common target) &lt; AAA (highest)</text>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 260" font-family="Helvetica, Arial, sans-serif">
+  <text x="360" y="26" text-anchor="middle" font-size="14" font-weight="700" fill="#1f2937">Human-AI interaction patterns — the autonomy spectrum</text>
+
+  <!-- spectrum arrow -->
+  <line x1="60" y1="220" x2="660" y2="220" stroke="#9ca3af" stroke-width="2" marker-end="url(#arrowGray2)"/>
+  <text x="60" y="240" font-size="11" fill="#6b7280">Low autonomy — human decides every step</text>
+  <text x="660" y="240" text-anchor="end" font-size="11" fill="#6b7280">High autonomy — AI acts, human supervises</text>
+
+  <!-- Suggestion -->
+  <rect x="45" y="60" width="140" height="60" rx="10" fill="#eff6ff" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="115" y="83" text-anchor="middle" font-size="12" font-weight="700" fill="#1e3a8a">SUGGESTION</text>
+  <text x="115" y="100" text-anchor="middle" font-size="10" fill="#1e40af">passive, opt-in</text>
+  <text x="115" y="113" text-anchor="middle" font-size="10" fill="#1e40af">cheap to ignore</text>
+
+  <!-- Autocomplete -->
+  <rect x="220" y="60" width="140" height="60" rx="10" fill="#ecfdf5" stroke="#047857" stroke-width="2"/>
+  <text x="290" y="83" text-anchor="middle" font-size="12" font-weight="700" fill="#065f46">AUTOCOMPLETE</text>
+  <text x="290" y="100" text-anchor="middle" font-size="10" fill="#047857">inline, near-zero</text>
+  <text x="290" y="113" text-anchor="middle" font-size="10" fill="#047857">friction accept/reject</text>
+
+  <!-- Copilot -->
+  <rect x="395" y="60" width="140" height="60" rx="10" fill="#fffbeb" stroke="#b45309" stroke-width="2"/>
+  <text x="465" y="83" text-anchor="middle" font-size="12" font-weight="700" fill="#78350f">COPILOT</text>
+  <text x="465" y="100" text-anchor="middle" font-size="10" fill="#92400e">turn-based:</text>
+  <text x="465" y="113" text-anchor="middle" font-size="10" fill="#92400e">propose → review → accept</text>
+
+  <!-- Agent -->
+  <rect x="570" y="60" width="140" height="60" rx="10" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/>
+  <text x="640" y="83" text-anchor="middle" font-size="12" font-weight="700" fill="#4c1d95">AGENT</text>
+  <text x="640" y="100" text-anchor="middle" font-size="10" fill="#5b21b6">multi-step, autonomous,</text>
+  <text x="640" y="113" text-anchor="middle" font-size="10" fill="#5b21b6">often irreversible</text>
+
+  <!-- connecting ticks down to spectrum line -->
+  <line x1="115" y1="120" x2="115" y2="220" stroke="#1d4ed8" stroke-width="1.2" stroke-dasharray="3 3"/>
+  <line x1="290" y1="120" x2="290" y2="220" stroke="#047857" stroke-width="1.2" stroke-dasharray="3 3"/>
+  <line x1="465" y1="120" x2="465" y2="220" stroke="#b45309" stroke-width="1.2" stroke-dasharray="3 3"/>
+  <line x1="640" y1="120" x2="640" y2="220" stroke="#7c3aed" stroke-width="1.2" stroke-dasharray="3 3"/>
+
+  <defs>
+    <marker id="arrowGray2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#9ca3af"/>
+    </marker>
+  </defs>
+</svg>

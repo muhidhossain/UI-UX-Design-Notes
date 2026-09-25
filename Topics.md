@@ -28,7 +28,7 @@ Candidate topics/subtopics for deep-dive conversations. Check off or annotate as
 - Human-AI interaction patterns (suggestions, autocomplete, agents, copilots)
 - Explainability and transparency in AI interfaces
 - Designing for errors, edge cases, and model failure modes
-- Onboarding and calibrating user trust/expectations for AI features
 - Feedback loops and human-in-the-loop design
+- Onboarding and calibrating user trust/expectations for AI features
 - Ethical considerations: bias, fairness, and dark patterns in AI products
 - Case studies: chat interfaces, recommendation systems, generative tools
